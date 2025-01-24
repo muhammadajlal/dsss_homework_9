@@ -17,7 +17,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(f"Sorry, an error occurred: {str(e)}")
 
 def main():
-    TOKEN = "7966020556:AAEZcgFRGPhcHn7btTcYjyn2eO4XJbKMRlM"  # Replace with your actual token
+    TOKEN = "7966020556:AAEZcgFRGPhcHn7btTcYjyn2eO4XJbKMRlM" 
     application = Application.builder().token(TOKEN).build()
 
     # Add command and message handlers
